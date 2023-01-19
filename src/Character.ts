@@ -77,7 +77,6 @@ export default class Character implements Figther {
     this._dexterity += getRandomInt(1, 10);
     this._defense += getRandomInt(1, 10);
     this._energy.amount = 10;
-    // console.log(this._strength);
     if (this.maxLifePoints >= this._race.maxLifePoints) {
       this.maxLifePoints = this._race.maxLifePoints;
     }
