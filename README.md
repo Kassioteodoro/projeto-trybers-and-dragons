@@ -1,46 +1,38 @@
-# My Awesome Project
+# Projeto Trbers and Dragons :dragon:
 
 # Contexto
-Este projeto trata-se de uma ferramenta de back-office para armazenar e buscar dados de erros que ocorreram com clientes.
+Este projeto trata-se de uma ferramenta para criar personagens de RPG de mesa.
+
+Esse projeto e desenvolvido pela trybe, o objetivo é poder testar a capacidade de seus alunos de utilizar os principios de POO.
+
+## os arquivos aos quais sou responsavel:
+
+ * os presentes na pasta `src`
 
 ## Técnologias usadas
 
-Front-end:
-> Desenvolvido usando: React, Redux, CSS3, HTML5, Redis, ES6
-
-Back-end:
-> Desenvolvido usando: NodeJS, ExpressJS, MongoDB, MYSQL, ES6
-
+> Desenvolvido usando: NodeJS, TypeScript, ExpressJS, MongoDB, MYSQL, ES6
 
 ## Instalando Dependências
 
-> Backend
-```bash
-cd api/ 
-npm install
-``` 
-> Frontend
-```bash
-cd src/
-npm install
-``` 
-## Executando aplicação
+### com Docker 
 
-* Para rodar o back-end:
+```
+docker-compose up -d
+```
 
-  ```
-  cd api/ && npm start
-  ```
-* Para rodar o front-end:
+* espere subir o container
 
-  ```
-    cd src/ && npm start
-  ```
+```
+docker attach trybers_and_dragons 
+```
+* dentro do container
 
-## Executando Testes
+```
+npm install 
+```
+### sem Docker
 
-* Para rodar todos os testes:
-
-  ```
-    npm test
-  ```
+```
+npm install 
+```
