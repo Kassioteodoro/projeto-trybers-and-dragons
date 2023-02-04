@@ -1,4 +1,4 @@
-# Projeto Trbers and Dragons :dragon:
+# Projeto Trybers and Dragons :dragon:
 
 # Contexto
 Este projeto trata-se de uma ferramenta para criar personagens de RPG de mesa.
